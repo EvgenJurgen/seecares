@@ -1,0 +1,16 @@
+{
+  "name": "seecares",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd ./frontend && yarn install && yarn start",
+    "backend": "cd ./backend && yarn install && yarn start",
+    "start": "concurrently \"yarn backend\" \"yarn frontend\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

@@ -1,0 +1,30 @@
+.custom-dropdown {
+  width: 20rem;
+  position: relative;
+}
+
+.custom-dropdown-selection {
+  background-color: #adadad;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+.items-holder {
+  position: absolute;
+  z-index: 100;
+  margin-top: 0.5rem;
+  width: 20rem;
+  border-radius: 10px;
+  background-color: #adadad;
+  overflow: auto;
+  max-height: 25rem;
+}
+
+.dropdown-item {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  &:hover {
+    background-color: #0001;
+  }
+}
